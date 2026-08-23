@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+*.local
+
+# Raw/source data (download separately; see data/README.md)
+Superstore.sql
+Superstore.zip
+__MACOSX/
+data/raw/*
+!data/raw/README.md
+
+# Generated data and model artifacts
+data/processed/*
+!data/processed/README.md
+models/*
+!models/README.md
+reports/figures/*
+!reports/figures/README.md
+reports/outputs/*
+!reports/outputs/README.md
+
+# Power BI temporary/cache files
+*.pbix.tmp
+*.pbit.tmp
+~$*.pbix
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+

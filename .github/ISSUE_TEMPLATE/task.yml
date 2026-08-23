@@ -1,0 +1,33 @@
+name: Project task
+description: تعریف یک کار قابل تحویل برای پروژه Superstore
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: dropdown
+    id: phase
+    attributes:
+      label: فاز پروژه
+      options:
+        - Data / Power BI
+        - Statistics
+        - ML - Profit
+        - ML - Ship Mode
+        - Dashboard
+        - Presentation / Docs
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: هدف
+      description: خروجی مورد انتظار را دقیق بنویسید.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: معیار پذیرش
+      description: چه شرایطی نشان می‌دهد این کار تمام شده است؟
+    validations:
+      required: true
+
