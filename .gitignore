@@ -17,17 +17,17 @@ Superstore.sql
 Superstore.zip
 __MACOSX/
 data/raw/*
-!data/raw/README.md
+!data/raw/.gitkeep
 
 # Generated data and model artifacts
 data/processed/*
-!data/processed/README.md
+!data/processed/.gitkeep
 models/*
-!models/README.md
+!models/.gitkeep
 reports/figures/*
-!reports/figures/README.md
+!reports/figures/.gitkeep
 reports/outputs/*
-!reports/outputs/README.md
+!reports/outputs/.gitkeep
 
 # Power BI temporary/cache files
 *.pbix.tmp
@@ -40,4 +40,3 @@ reports/outputs/*
 .DS_Store
 Thumbs.db
 desktop.ini
-
