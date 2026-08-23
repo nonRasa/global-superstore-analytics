@@ -15,7 +15,6 @@ The project has four primary deliverables:
 
 ## Data Source
 
-Download the source archive from the [project dataset link](https://drive.google.com/file/d/1KBzL7U2Bt1jEPAENuPw_zIWKcmj9QGnu/view?usp=sharing).
 
 The archive contains `Superstore.sql`, which creates the following MySQL source tables:
 
