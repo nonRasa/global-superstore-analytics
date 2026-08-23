@@ -1,3 +1,5 @@
+![Global Superstore Analytics](assets/github-social-preview.png)
+
 # Global Superstore Analytics
 
 An end-to-end analytics project built around the Global Superstore dataset. The project combines data warehousing, statistical analysis, machine learning, and an executive Power BI dashboard to produce practical business insights.
